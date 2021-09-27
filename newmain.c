@@ -16,23 +16,23 @@
 void verificaTensao(float tensao){
     if(tensao >=0 && tensao <1){
         PORTDbits.RD0 = 0xFF;
-        __delay_ms(100);
+        __delay_ms(10);
     }
     if(tensao >= 1 && tensao < 2){
         PORTDbits.RD1 = 0xFF;
-        __delay_ms(100);
+        __delay_ms(10);
     }
     if(tensao >= 2 && tensao < 3){
         PORTDbits.RD2 = 0xFF; 
-        __delay_ms(100);
+        __delay_ms(10);
     }
     if(tensao >= 3 && tensao < 4){
         PORTDbits.RD3 = 0xFF; 
-        __delay_ms(100);
+        __delay_ms(10);
     }
     if(tensao >= 4 && tensao <= 5){
         PORTDbits.RD4 = 0xFF; 
-        __delay_ms(100);
+        __delay_ms(10);
     }
     
 }

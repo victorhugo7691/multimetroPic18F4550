@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/multimetro.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=multimetro.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=multimetro.x/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/multimetroPic18F4550.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=multimetroPic18F4550.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=multimetropic18f4550/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/multimetro.x/bin
+makeDirectory ${TMPDIR}/multimetropic18f4550/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/multimetro.x.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/multimetropic18f4550.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/multimetro.x.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/multimetropic18f4550.tar *
 checkReturnCode
 
 # Cleanup

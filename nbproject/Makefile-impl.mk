@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=multimetro.X
+PROJECTNAME=multimetroPic18F4550
 
 # Active Configuration
 DEFAULTCONF=default
