@@ -1,4 +1,41 @@
 Version 4.0 HI-TECH Software Intermediate Code
+"2832 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2832:     struct {
+[s S121 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S121 . RE0 RE1 RE2 RE3 . RDPU ]
+"2840
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2840:     struct {
+[s S122 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S122 . CK1SPP CK2SPP OESPP ]
+"2845
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2845:     struct {
+[s S123 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S123 . PD2 PC2 CCP10 CCP9E . CCP2E ]
+"2853
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2853:     struct {
+[s S124 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S124 . RDE WRE CS PC3E . PA2E ]
+"2861
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2861:     struct {
+[s S125 :2 `uc 1 :1 `uc 1 :4 `uc 1 :1 `uc 1 ]
+[n S125 . . PB2 . RE7 ]
+"2831
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2831: typedef union {
+[u S120 `S121 1 `S122 1 `S123 1 `S124 1 `S125 1 ]
+[n S120 . . . . . . ]
+"2868
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2868: extern volatile PORTEbits_t PORTEbits __attribute__((address(0xF84)));
+[v _PORTEbits `VS120 ~T0 @X0 0 e@3972 ]
+"2705
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2705: extern volatile unsigned char PORTD __attribute__((address(0xF83)));
+[v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
+[v F3152 `(v ~T0 @X0 1 tf1`ul ]
+"203 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\pic18.h
+[v __delay `JF3152 ~T0 @X0 0 e ]
+[p i __delay ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\include\c99\string.h
+[; ;C:\Program Files\Microchip\xc8\v2.32\pic\include\c99\string.h: 54: size_t strlen (const char *);
+[v _strlen `(ui ~T0 @X0 0 ef1`*Cuc ]
 "2711 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
 [; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2711:     struct {
 [s S117 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -18,17 +55,77 @@ Version 4.0 HI-TECH Software Intermediate Code
 "2736
 [; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2736: extern volatile PORTDbits_t PORTDbits __attribute__((address(0xF83)));
 [v _PORTDbits `VS116 ~T0 @X0 0 e@3971 ]
-[v F3152 `(v ~T0 @X0 1 tf1`ul ]
-"203 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\pic18.h
-[v __delay `JF3152 ~T0 @X0 0 e ]
-[p i __delay ]
 [p mainexit ]
-"4001 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+"8588
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8588:     struct {
+[s S360 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S360 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
+"8598
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8598:     struct {
+[s S361 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S361 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
+"8608
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8608:     struct {
+[s S362 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S362 . . GIEL GIEH ]
+"8587
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8587: typedef union {
+[u S359 `S360 1 `S361 1 `S362 1 ]
+[n S359 . . . . ]
+"8614
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8614: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
+[v _INTCONbits `VS359 ~T0 @X0 0 e@4082 ]
+"8069
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8069: extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
+[v _T0CON `Vuc ~T0 @X0 0 e@4053 ]
+"8146
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8146: extern volatile unsigned char TMR0L __attribute__((address(0xFD6)));
+[v _TMR0L `Vuc ~T0 @X0 0 e@4054 ]
+"4001
 [; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4001: extern volatile unsigned char TRISD __attribute__((address(0xF95)));
 [v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
-"2705
-[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 2705: extern volatile unsigned char PORTD __attribute__((address(0xF83)));
-[v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
+"4223
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 4223: extern volatile unsigned char TRISE __attribute__((address(0xF96)));
+[v _TRISE `Vuc ~T0 @X0 0 e@3990 ]
+"6581
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 6581: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
+"8419
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8419:     struct {
+[s S353 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S353 . INT1IF INT2IF . INT1IE INT2IE . INT1IP INT2IP ]
+"8429
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8429:     struct {
+[s S354 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S354 . INT1F INT2F . INT1E INT2E . INT1P INT2P ]
+"8418
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8418: typedef union {
+[u S352 `S353 1 `S354 1 ]
+[n S352 . . . ]
+"8440
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8440: extern volatile INTCON3bits_t INTCON3bits __attribute__((address(0xFF0)));
+[v _INTCON3bits `VS352 ~T0 @X0 0 e@4080 ]
+"8511
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8511:     struct {
+[s S356 :7 `uc 1 :1 `uc 1 ]
+[n S356 . . NOT_RBPU ]
+"8515
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8515:     struct {
+[s S357 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S357 . RBIP . TMR0IP . INTEDG2 INTEDG1 INTEDG0 nRBPU ]
+"8525
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8525:     struct {
+[s S358 :2 `uc 1 :1 `uc 1 :4 `uc 1 :1 `uc 1 ]
+[n S358 . . T0IP . RBPU ]
+"8510
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8510: typedef union {
+[u S355 `S356 1 `S357 1 `S358 1 ]
+[n S355 . . . . ]
+"8532
+[; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8532: extern volatile INTCON2bits_t INTCON2bits __attribute__((address(0xFF1)));
+[v _INTCON2bits `VS355 ~T0 @X0 0 e@4081 ]
+"113 C:\Program Files\Microchip\xc8\v2.32\pic\include\c99\stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
 "7 newmain.c
 [p x FOSC  =  HS         ]
 "9
@@ -545,112 +642,289 @@ Version 4.0 HI-TECH Software Intermediate Code
 "8893
 [; ;C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"16 newmain.c
-[; ;newmain.c: 16: void verificaTensao(float tensao){
-[v _verificaTensao `(v ~T0 @X0 1 ef1`f ]
+"7 ./lcd.intermed.h
+[; ;./lcd.intermed.h: 7: void comando_lcd(unsigned int comando)
+[v _comando_lcd `(v ~T0 @X0 1 ef1`ui ]
+"8
+[; ;./lcd.intermed.h: 8: {
+{
+[e :U _comando_lcd ]
+"7
+[; ;./lcd.intermed.h: 7: void comando_lcd(unsigned int comando)
+[v _comando `ui ~T0 @X0 1 r1 ]
+"8
+[; ;./lcd.intermed.h: 8: {
+[f ]
+"9
+[; ;./lcd.intermed.h: 9:     PORTEbits.RE2 = 0;
+[e = . . _PORTEbits 0 2 -> -> 0 `i `uc ]
+"10
+[; ;./lcd.intermed.h: 10:     PORTEbits.RE1 = 1;
+[e = . . _PORTEbits 0 1 -> -> 1 `i `uc ]
+"11
+[; ;./lcd.intermed.h: 11:     PORTD = comando;
+[e = _PORTD -> _comando `uc ]
+"12
+[; ;./lcd.intermed.h: 12:     _delay((unsigned long)((2)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"13
+[; ;./lcd.intermed.h: 13:     PORTEbits.RE1 = 0;
+[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
+"14
+[; ;./lcd.intermed.h: 14: }
+[e :UE 370 ]
+}
+"16
+[; ;./lcd.intermed.h: 16: void dado_lcd(unsigned int dado)
+[v _dado_lcd `(v ~T0 @X0 1 ef1`ui ]
+"17
+[; ;./lcd.intermed.h: 17: {
+{
+[e :U _dado_lcd ]
+"16
+[; ;./lcd.intermed.h: 16: void dado_lcd(unsigned int dado)
+[v _dado `ui ~T0 @X0 1 r1 ]
+"17
+[; ;./lcd.intermed.h: 17: {
+[f ]
+"18
+[; ;./lcd.intermed.h: 18:     PORTEbits.RE2 = 1;
+[e = . . _PORTEbits 0 2 -> -> 1 `i `uc ]
+"19
+[; ;./lcd.intermed.h: 19:     PORTEbits.RE1 = 1;
+[e = . . _PORTEbits 0 1 -> -> 1 `i `uc ]
+"20
+[; ;./lcd.intermed.h: 20:     PORTD = dado;
+[e = _PORTD -> _dado `uc ]
+"21
+[; ;./lcd.intermed.h: 21:     _delay((unsigned long)((2)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"22
+[; ;./lcd.intermed.h: 22:     PORTEbits.RE1 = 0;
+[e = . . _PORTEbits 0 1 -> -> 0 `i `uc ]
+"24
+[; ;./lcd.intermed.h: 24:  }
+[e :UE 371 ]
+}
+"26
+[; ;./lcd.intermed.h: 26: void limpa_lcd( )
+[v _limpa_lcd `(v ~T0 @X0 1 ef ]
+"27
+[; ;./lcd.intermed.h: 27: {
+{
+[e :U _limpa_lcd ]
+[f ]
+"28
+[; ;./lcd.intermed.h: 28:     comando_lcd(1);
+[e ( _comando_lcd (1 -> -> 1 `i `ui ]
+"29
+[; ;./lcd.intermed.h: 29: }
+[e :UE 372 ]
+}
+"31
+[; ;./lcd.intermed.h: 31: void imprime_lcd(char frase[])
+[v _imprime_lcd `(v ~T0 @X0 1 ef1`*uc ]
+"32
+[; ;./lcd.intermed.h: 32: {
+{
+[e :U _imprime_lcd ]
+"31
+[; ;./lcd.intermed.h: 31: void imprime_lcd(char frase[])
+[v _frase `*uc ~T0 @X0 1 r1 ]
+"32
+[; ;./lcd.intermed.h: 32: {
+[f ]
+"33
+[; ;./lcd.intermed.h: 33: int indice = 0;
+[v _indice `i ~T0 @X0 1 a ]
+[e = _indice -> 0 `i ]
+"34
+[; ;./lcd.intermed.h: 34: int tamanho = strlen(frase);
+[v _tamanho `i ~T0 @X0 1 a ]
+[e = _tamanho -> ( _strlen (1 -> _frase `*Cuc `i ]
+"35
+[; ;./lcd.intermed.h: 35: while(indice<tamanho)
+[e $U 374  ]
+[e :U 375 ]
+"36
+[; ;./lcd.intermed.h: 36:     {
+{
+"37
+[; ;./lcd.intermed.h: 37: dado_lcd(frase[indice]);
+[e ( _dado_lcd (1 -> *U + _frase * -> _indice `x -> -> # *U _frase `i `x `ui ]
+"38
+[; ;./lcd.intermed.h: 38: indice++;
+[e ++ _indice -> 1 `i ]
+"39
+[; ;./lcd.intermed.h: 39:     }
+}
+[e :U 374 ]
+"35
+[; ;./lcd.intermed.h: 35: while(indice<tamanho)
+[e $ < _indice _tamanho 375  ]
+[e :U 376 ]
+"40
+[; ;./lcd.intermed.h: 40: }
+[e :UE 373 ]
+}
+"19 newmain.c
+[; ;newmain.c: 19: void verificaTensao(float tensao, char V[]){
+[v _verificaTensao `(v ~T0 @X0 1 ef2`f`*uc ]
 {
 [e :U _verificaTensao ]
 [v _tensao `f ~T0 @X0 1 r1 ]
+[v _V `*uc ~T0 @X0 1 r2 ]
 [f ]
-"17
-[; ;newmain.c: 17:     if(tensao >=0 && tensao <1){
-[e $ ! && >= _tensao -> -> 0 `i `f < _tensao -> -> 1 `i `f 368  ]
-{
-"18
-[; ;newmain.c: 18:         PORTDbits.RD0 = 0xFF;
-[e = . . _PORTDbits 0 0 -> -> 255 `i `uc ]
-"19
-[; ;newmain.c: 19:         _delay((unsigned long)((100)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "20
-[; ;newmain.c: 20:     }
-}
-[e :U 368 ]
-"21
-[; ;newmain.c: 21:     if(tensao >= 1 && tensao < 2){
-[e $ ! && >= _tensao -> -> 1 `i `f < _tensao -> -> 2 `i `f 369  ]
+[; ;newmain.c: 20:     if(tensao >=0 && tensao <1){
+[e $ ! && >= _tensao -> -> 0 `i `f < _tensao -> -> 1 `i `f 378  ]
 {
+"21
+[; ;newmain.c: 21:         PORTDbits.RD0 = 0xFF;
+[e = . . _PORTDbits 0 0 -> -> 255 `i `uc ]
 "22
-[; ;newmain.c: 22:         PORTDbits.RD1 = 0xFF;
-[e = . . _PORTDbits 0 1 -> -> 255 `i `uc ]
+[; ;newmain.c: 22:         imprime_lcd(V);
+[e ( _imprime_lcd (1 _V ]
 "23
-[; ;newmain.c: 23:         _delay((unsigned long)((100)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;newmain.c: 23:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "24
 [; ;newmain.c: 24:     }
 }
-[e :U 369 ]
+[e :U 378 ]
 "25
-[; ;newmain.c: 25:     if(tensao >= 2 && tensao < 3){
-[e $ ! && >= _tensao -> -> 2 `i `f < _tensao -> -> 3 `i `f 370  ]
+[; ;newmain.c: 25:     if(tensao >= 1 && tensao < 2){
+[e $ ! && >= _tensao -> -> 1 `i `f < _tensao -> -> 2 `i `f 379  ]
 {
 "26
-[; ;newmain.c: 26:         PORTDbits.RD2 = 0xFF;
-[e = . . _PORTDbits 0 2 -> -> 255 `i `uc ]
+[; ;newmain.c: 26:         PORTDbits.RD1 = 0xFF;
+[e = . . _PORTDbits 0 1 -> -> 255 `i `uc ]
 "27
-[; ;newmain.c: 27:         _delay((unsigned long)((100)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+[; ;newmain.c: 27:         imprime_lcd(V);
+[e ( _imprime_lcd (1 _V ]
 "28
-[; ;newmain.c: 28:     }
-}
-[e :U 370 ]
+[; ;newmain.c: 28:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "29
-[; ;newmain.c: 29:     if(tensao >= 3 && tensao < 4){
-[e $ ! && >= _tensao -> -> 3 `i `f < _tensao -> -> 4 `i `f 371  ]
-{
+[; ;newmain.c: 29:     }
+}
+[e :U 379 ]
 "30
-[; ;newmain.c: 30:         PORTDbits.RD3 = 0xFF;
-[e = . . _PORTDbits 0 3 -> -> 255 `i `uc ]
-"31
-[; ;newmain.c: 31:         _delay((unsigned long)((100)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
-"32
-[; ;newmain.c: 32:     }
-}
-[e :U 371 ]
-"33
-[; ;newmain.c: 33:     if(tensao >= 4 && tensao <= 5){
-[e $ ! && >= _tensao -> -> 4 `i `f <= _tensao -> -> 5 `i `f 372  ]
+[; ;newmain.c: 30:     if(tensao >= 2 && tensao < 3){
+[e $ ! && >= _tensao -> -> 2 `i `f < _tensao -> -> 3 `i `f 380  ]
 {
+"31
+[; ;newmain.c: 31:         PORTDbits.RD2 = 0xFF;
+[e = . . _PORTDbits 0 2 -> -> 255 `i `uc ]
+"32
+[; ;newmain.c: 32:         imprime_lcd(V);
+[e ( _imprime_lcd (1 _V ]
+"33
+[; ;newmain.c: 33:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
 "34
-[; ;newmain.c: 34:         PORTDbits.RD4 = 0xFF;
-[e = . . _PORTDbits 0 4 -> -> 255 `i `uc ]
-"35
-[; ;newmain.c: 35:         _delay((unsigned long)((100)*(4000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
-"36
-[; ;newmain.c: 36:     }
+[; ;newmain.c: 34:     }
 }
-[e :U 372 ]
+[e :U 380 ]
+"35
+[; ;newmain.c: 35:     if(tensao >= 3 && tensao < 4){
+[e $ ! && >= _tensao -> -> 3 `i `f < _tensao -> -> 4 `i `f 381  ]
+{
+"36
+[; ;newmain.c: 36:         PORTDbits.RD3 = 0xFF;
+[e = . . _PORTDbits 0 3 -> -> 255 `i `uc ]
+"37
+[; ;newmain.c: 37:         imprime_lcd(V);
+[e ( _imprime_lcd (1 _V ]
 "38
-[; ;newmain.c: 38: }
-[e :UE 367 ]
+[; ;newmain.c: 38:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"39
+[; ;newmain.c: 39:     }
+}
+[e :U 381 ]
+"40
+[; ;newmain.c: 40:     if(tensao >= 4 && tensao <= 5){
+[e $ ! && >= _tensao -> -> 4 `i `f <= _tensao -> -> 5 `i `f 382  ]
+{
+"41
+[; ;newmain.c: 41:         PORTDbits.RD4 = 0xFF;
+[e = . . _PORTDbits 0 4 -> -> 255 `i `uc ]
+"42
+[; ;newmain.c: 42:         imprime_lcd(V);
+[e ( _imprime_lcd (1 _V ]
+"43
+[; ;newmain.c: 43:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"44
+[; ;newmain.c: 44:     }
+}
+[e :U 382 ]
+"45
+[; ;newmain.c: 45:     limpa_lcd( );
+[e ( _limpa_lcd ..  ]
+"46
+[; ;newmain.c: 46: }
+[e :UE 377 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"40
-[; ;newmain.c: 40: void main(void) {
+"48
+[; ;newmain.c: 48: void main(void) {
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"41
-[; ;newmain.c: 41:     TRISD = 0x0;
+"49
+[; ;newmain.c: 49:     char V[8];
+[v _V `uc ~T0 @X0 -> 8 `i a ]
+"50
+[; ;newmain.c: 50:     INTCONbits.GIE =1;
+[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
+"51
+[; ;newmain.c: 51:     INTCONbits.TMR0IE = 1;
+[e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
+"53
+[; ;newmain.c: 53:     T0CON = 0B11000111;
+[e = _T0CON -> -> 199 `i `uc ]
+"54
+[; ;newmain.c: 54:     TMR0L = 5;
+[e = _TMR0L -> -> 5 `i `uc ]
+"56
+[; ;newmain.c: 56:     TRISD = 0x0;
 [e = _TRISD -> -> 0 `i `uc ]
-"42
-[; ;newmain.c: 42:     PORTD = 0;
+"57
+[; ;newmain.c: 57:     TRISE = 0;
+[e = _TRISE -> -> 0 `i `uc ]
+"58
+[; ;newmain.c: 58:     ADCON1 = 15;
+[e = _ADCON1 -> -> 15 `i `uc ]
+"59
+[; ;newmain.c: 59:     PORTD = 0;
 [e = _PORTD -> -> 0 `i `uc ]
-"43
-[; ;newmain.c: 43:     PORTD = 0;
-[e = _PORTD -> -> 0 `i `uc ]
-"44
-[; ;newmain.c: 44:     float tensao = 0;
+"61
+[; ;newmain.c: 61:     INTCON3bits.INT1IE = 1;
+[e = . . _INTCON3bits 0 3 -> -> 1 `i `uc ]
+"63
+[; ;newmain.c: 63:     INTCON3bits.INT1IF = 0;
+[e = . . _INTCON3bits 0 0 -> -> 0 `i `uc ]
+"65
+[; ;newmain.c: 65:     INTCON2bits.INTEDG1 = 1;
+[e = . . _INTCON2bits 1 5 -> -> 1 `i `uc ]
+"67
+[; ;newmain.c: 67:     comando_lcd(0b00111100);
+[e ( _comando_lcd (1 -> -> 60 `i `ui ]
+"68
+[; ;newmain.c: 68:     comando_lcd(0b00001100);
+[e ( _comando_lcd (1 -> -> 12 `i `ui ]
+"70
+[; ;newmain.c: 70:     float tensao = 0;
 [v _tensao `f ~T0 @X0 1 a ]
 [e = _tensao -> -> 0 `i `f ]
-[v F3164 `f ~T0 @X0 -> 5 `i s ]
-[i F3164
+[v F3660 `f ~T0 @X0 -> 5 `i s ]
+[i F3660
 :U ..
-"45
-[; ;newmain.c: 45:     float vetorDeTensao [] = {0, 1, 2, 3, 4};
+"71
+[; ;newmain.c: 71:     float vetorDeTensao [] = {0, 1, 2, 3, 4};
 -> -> 0 `i `f
 -> -> 1 `i `f
 -> -> 2 `i `f
@@ -659,34 +933,60 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 [v _vetorDeTensao `f ~T0 @X0 -> 5 `i a ]
-[e = _vetorDeTensao F3164 ]
-"46
-[; ;newmain.c: 46:     while(1){
-[e :U 375 ]
+[e = _vetorDeTensao F3660 ]
+"72
+[; ;newmain.c: 72:     while(1){
+[e :U 385 ]
 {
-"47
-[; ;newmain.c: 47:         int i=0;
+"73
+[; ;newmain.c: 73:         int i=0;
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-"48
-[; ;newmain.c: 48:         tensao = vetorDeTensao[i];
+"74
+[; ;newmain.c: 74:         tensao = vetorDeTensao[i];
 [e = _tensao *U + &U _vetorDeTensao * -> -> _i `ui `ux -> -> # *U &U _vetorDeTensao `ui `ux ]
-"49
-[; ;newmain.c: 49:         i++;
+"75
+[; ;newmain.c: 75:         i++;
 [e ++ _i -> 1 `i ]
-"50
-[; ;newmain.c: 50:         verificaTensao(tensao);
-[e ( _verificaTensao (1 _tensao ]
-"51
-[; ;newmain.c: 51:     }
+"76
+[; ;newmain.c: 76:         comando_lcd(128);
+[e ( _comando_lcd (1 -> -> 128 `i `ui ]
+"77
+[; ;newmain.c: 77:         imprime_lcd("Voltagem");
+[e ( _imprime_lcd (1 :s 1C ]
+"78
+[; ;newmain.c: 78:         comando_lcd(192);
+[e ( _comando_lcd (1 -> -> 192 `i `ui ]
+"79
+[; ;newmain.c: 79:         sprintf(V, "%3.2f", tensao);
+[e ( _sprintf (1 , (. , &U _V :s 2C -> _tensao `d ]
+"80
+[; ;newmain.c: 80:         verificaTensao(tensao, V);
+[e ( _verificaTensao (2 , _tensao &U _V ]
+"81
+[; ;newmain.c: 81:         if(tensao>=5){
+[e $ ! >= _tensao -> -> 5 `i `f 387  ]
+{
+"82
+[; ;newmain.c: 82:             i=0;
+[e = _i -> 0 `i ]
+"83
+[; ;newmain.c: 83:         }
 }
-[e :U 374 ]
-[e $U 375  ]
-[e :U 376 ]
-"52
-[; ;newmain.c: 52:     return;
-[e $UE 373  ]
-"53
-[; ;newmain.c: 53: }
-[e :UE 373 ]
+[e :U 387 ]
+"84
+[; ;newmain.c: 84:     }
 }
+[e :U 384 ]
+[e $U 385  ]
+[e :U 386 ]
+"85
+[; ;newmain.c: 85:     return;
+[e $UE 383  ]
+"86
+[; ;newmain.c: 86: }
+[e :UE 383 ]
+}
+[p f _sprintf 8495104 ]
+[a 1C 86 111 108 116 97 103 101 109 0 ]
+[a 2C 37 51 46 50 102 0 ]
